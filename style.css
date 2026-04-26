@@ -185,6 +185,51 @@ nav a:hover {
   transform: translateY(-8px);
   box-shadow: 0 0 30px rgb(48, 238, 255);
 }
+/* Tombol Figma */
+/* Card kecil */
+.portfolio-card.small-card {
+  max-width: 250px;
+  padding: 12px;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.portfolio-card.small-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+/* Subteks khusus */
+.subtext {
+  margin-bottom: 15px;   /* jarak ke tombol */
+  font-size: 0.9rem;
+  color: #ccc;           /* opsional: warna lebih soft */
+}
+
+/* Tombol Figma */
+.neon-btn.figma {
+  background: transparent; /* biru khas Figma, solid */
+  color: #fff;
+  text-decoration: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: 0.3s;
+  display: inline-block;
+  margin-top: 15px; /* jarak ke bawah dari subteks */
+}
+
+.neon-btn.figma:hover {
+  background: #c803ff; /* hijau khas Figma saat hover */
+  box-shadow: 0 0 20px rgba(26, 188, 254, 0.5); /* glow tipis */
+  transform: translateY(-2px);
+}
+
+
+
+
+
 /*teknologi*/
 .technologies {
   padding: 80px;
